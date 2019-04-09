@@ -13,4 +13,3 @@ func main() {
 	fmt.Println(z)
 	// VALUE zero
 }
-

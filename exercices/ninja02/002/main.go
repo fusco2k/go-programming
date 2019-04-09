@@ -14,4 +14,3 @@ func main() {
 	fmt.Println(x < y)
 	fmt.Println(x > y)
 }
-

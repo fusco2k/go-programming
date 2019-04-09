@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 const (
-	x = 42
+	x     = 42
 	y int = 24
 )
 
