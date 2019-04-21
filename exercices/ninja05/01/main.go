@@ -10,14 +10,14 @@ type person struct {
 
 func main() {
 	p1 := person{
-		first:     "Bruce",
-		last:      "Wayne",
+		first:      "Bruce",
+		last:       "Wayne",
 		iceFlavors: []string{"Vanilla", "Coffee", "Chocolate"},
 	}
 	p2 := person{
-		first:     "Miss",
-		last:      "Fortune",
-		s: []string{"Strawberry", "Pineapple", "Nuts"},
+		first: "Miss",
+		last:  "Fortune",
+		s:     []string{"Strawberry", "Pineapple", "Nuts"},
 	}
 
 	y := []person{p1, p2}

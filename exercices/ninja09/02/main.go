@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-type person struct{
+type person struct {
 	name string
-	age int
+	age  int
 }
 
-func (p *person) speak(){
+func (p *person) speak() {
 	fmt.Println("Hello, I'm", p.name)
 }
 
@@ -15,14 +15,14 @@ type human interface {
 	speak()
 }
 
-func saySomething (h human){
+func saySomething(h human) {
 	h.speak()
 }
 
 func main() {
 	p1 := person{
 		name: "James",
-		age:36,
+		age:  36,
 	}
 
 	saySomething(&p1)
